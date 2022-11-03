@@ -1,0 +1,24 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    label{
+        padding: 15px;
+        font-weight: 600;
+        color:  orange;
+        text-shadow: 0 0 10 darkblue;
+    }
+}
+
+.wa{
+    width: 50%;
+    padding: 15px;
+}
+
+.buttonc{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}

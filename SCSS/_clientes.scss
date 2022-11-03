@@ -1,0 +1,73 @@
+.clientes{
+    background-color:  rgba(9,9,121,1);
+    padding: 15px;
+    color: aliceblue;
+    text-shadow: 0 0 15px darkblue;
+    text-align: center;
+}
+
+@mixin item ($height){
+    height: $height;
+}
+
+.item{
+    @include item (250px);
+}
+
+.item1g{
+    background-image: url(../IMAGES/Clientes/banco_azteca.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item2g{
+    background-image: url(../IMAGES/Clientes/elektra.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item3g{
+    background-image: url(../IMAGES/Clientes/chilimbalam.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item4g{
+    background-image: url(../IMAGES/Clientes/neto.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item5g{
+    background-image: url(../IMAGES/Clientes/bp_transparente.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item6g{
+    background-image: url(../IMAGES/Clientes/Logo_comex.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item7g{
+    background-image: url(../IMAGES/Clientes/colegio-emile-durkheim-logo.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item8g{
+    background-image: url(../IMAGES/Clientes/Logo_de_Steren.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+

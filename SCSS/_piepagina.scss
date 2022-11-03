@@ -1,0 +1,20 @@
+.footer{
+    background  : $gradianteinferior;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;    
+
+    .autor{
+        text-decoration: underline;
+    }
+
+    i{
+        letter-spacing: 10px;
+    }
+
+    .contacto{
+        font-size: 20px;
+    }
+}

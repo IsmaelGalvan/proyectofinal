@@ -1,0 +1,48 @@
+{
+  "name": "qprosecurity",
+  "version": "1.0.0",
+  "description": "primer proyecto con sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmaelGalvan/qprosecurity.git"
+  },
+  "keywords": [
+    "developer"
+  ],
+  "author": "Ismael Galvan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IsmaelGalvan/qprosecurity/issues"
+  },
+  "homepage": "https://github.com/IsmaelGalvan/qprosecurity#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "binary-extensions": "^2.2.0",
+    "braces": "^3.0.2",
+    "fill-range": "^7.0.1",
+    "anymatch": "^3.1.2",
+    "glob-parent": "^5.1.2",
+    "is-binary-path": "^2.1.0",
+    "immutable": "^4.1.0",
+    "is-extglob": "^2.1.1",
+    "is-number": "^7.0.0",
+    "is-glob": "^4.0.3",
+    "readdirp": "^3.6.0",
+    "normalize-path": "^3.0.0",
+    "source-map-js": "^1.0.2",
+    "picomatch": "^2.3.1",
+    "to-regex-range": "^5.0.1"
+  }
+}

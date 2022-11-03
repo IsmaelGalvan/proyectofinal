@@ -1,0 +1,36 @@
+
+.clientesn{
+    padding: 15px;
+    text-align: center;
+} 
+
+img.tira1{
+    animation-name: tira1;
+    animation-duration: 7s;
+    position: relative;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width: 100%;
+   }
+  
+@keyframes tira1{
+    0% {left: 0%}
+    50% {left: 2%;}
+    100% {left: 0%}
+}
+  
+img.tira2{
+    @extend img.tira1;
+    animation-name: tira2;
+
+}
+  
+@keyframes tira2{
+    0% {right: 0%}
+    50% {right: 2%}
+    100% {right: 0%}
+}
+
+
+

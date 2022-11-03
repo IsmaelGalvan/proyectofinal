@@ -1,0 +1,24 @@
+.navbar{
+    background: $gradiantesuperior;
+    
+    img{
+        width: 70px;
+        height: 70px;
+        padding: 5px;
+    }
+
+}
+
+.navbar-brand{
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.navbar-toggler i{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: aliceblue;
+}

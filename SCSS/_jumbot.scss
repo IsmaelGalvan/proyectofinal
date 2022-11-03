@@ -1,0 +1,28 @@
+.jumbotron{
+    background-image: url(../IMAGES/work.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+    margin: 0;
+
+    h1{
+        color: aliceblue;
+        font-weight: bold;
+        text-shadow: 0 0 5px darkblue;
+    }
+
+    p{
+        font-size: 20px;
+        color: aliceblue;
+        text-shadow: 0 0 5px darkblue;
+        font-weight:500;
+    }
+
+    .lead{
+        color: tomato;
+        text-shadow: 0 0 5px darkblue;
+        font-style: italic;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
