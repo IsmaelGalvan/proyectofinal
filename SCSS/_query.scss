@@ -1,7 +1,10 @@
 @media screen and (max-width: 1024px){
     .seccioncard{
         display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: auto;
+        height: auto;
       }
 }  
